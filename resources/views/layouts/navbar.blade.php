@@ -6,17 +6,11 @@
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Products</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Category</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Subcategory</a>
+        <a class="nav-link" href="{{ url('products/') }}">Products</a>
       </li>
     </ul>
-    <span class="navbar-text">
+    <!-- <span class="navbar-text">
       Navbar text with an inline element
-    </span>
+    </span> -->
   </div>
 </nav>
